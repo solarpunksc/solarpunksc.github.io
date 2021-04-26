@@ -100,10 +100,10 @@ input, select, textarea {
 
 	body {
 		background-color: #e8cfec;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #a0cacd 15%, #fbba68 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #a0cacd 15%, #fbba68 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #a0cacd 15%, #fbba68 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #a0cacd 15%, #fbba68 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #40548e 15%, #62cb96 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #40548e 15%, #62cb96 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #40548e 15%, #62cb96 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #40548e 15%, #62cb96 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2812,6 +2812,19 @@ input, select, textarea {
 		padding: 0;
 		list-style: none;
 	}
+		.features .image {
+			display: inline-block;
+			padding: 0.65em;
+			border-radius: 100%;
+			border: none;
+		}
+
+			.features .image img {
+				display: block;
+				/*border-radius: 100%;*/
+				width: 16em;
+				border-width:0;
+			}
 
 		.features li {
 			width: calc(33.33333% - 2em);
@@ -3002,13 +3015,14 @@ input, select, textarea {
 			margin-left: 4em;
 			padding: 0.65em;
 			border-radius: 100%;
-			border: solid 1px;
+			border: none;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
+				/*border-radius: 100%;*/
 				width: 16em;
+				border-width:0;
 			}
 
 		@media screen and (max-width: 980px) {
