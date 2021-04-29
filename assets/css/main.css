@@ -330,6 +330,11 @@ input, select, textarea {
 	hr {
 		border-bottom-color: rgba(255, 255, 255, 0.35);
 	}
+	.highlight{
+		background: -webkit-linear-gradient(45deg, rgb(239, 168, 176), rgb(168, 156, 200), rgb(140, 201, 240));
+  		-webkit-background-clip: text;
+ 		-webkit-text-fill-color: transparent;
+	}
 
 /* Row */
 
@@ -2897,23 +2902,24 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #587bc7;
+				background-color: #ca5534;
 			}
 
 			.statistics li.style2 {
-				background-color: #e8cfec;
+				background-color: #fff793;
+				color:#010a1b;
 			}
 
 			.statistics li.style3 {
-				background-color: #75b2f8;
+				background-color: #499170;
 			}
 
 			.statistics li.style4 {
-				background-color: #a0eacd;
+				background-color: #40548e;
 			}
 
 			.statistics li.style5 {
-				background-color: #fbba68;
+				background-color: #775c88;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3100,7 +3106,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 1em 5em 4em 5em ;
+			padding: 1em 5em 1em 5em ;
 		}
 
 			#header.alt h1 {
