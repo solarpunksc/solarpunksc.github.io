@@ -1,5 +1,18 @@
 @import url(all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@font-face {
+    font-family: NeueHaasGrotesk;
+    src: url('assets/webfonts/NHaasGroteskTXPro-55Rg.ttf');
+    src: url('assets/webfonts/NHaasGroteskTXPro-55Rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Times Now Italic';
+    src: url('assets/webfonts/TimesNow-SemiLightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
 
 /*
 	Stellar by HTML5 UP
@@ -125,9 +138,10 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Times Now Italic", "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
-		font-weight: 300;
+		font-weight: normal;
+		font-style: italic;
 		line-height: 1.65;
 	}
 
@@ -194,7 +208,9 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-family: NeueHaasGrotesk, "Source Sans Pro", Helvetica;
+		font-weight: normal;
+		font-style: normal;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
