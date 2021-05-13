@@ -2,14 +2,14 @@
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 @font-face {
     font-family: NeueHaasGrotesk;
-    src: url('assets/webfonts/NHaasGroteskTXPro-55Rg.ttf');
-    src: url('assets/webfonts/NHaasGroteskTXPro-55Rg.ttf') format('truetype');
+    src: url('../webfonts/NHaasGroteskTXPro-55Rg.ttf');
+    src: url('../webfonts/NHaasGroteskTXPro-55Rg.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Times Now Italic';
-    src: url('assets/webfonts/TimesNow-SemiLightItalic.ttf') format('truetype');
+    src: url('../webfonts/TimesNow-SemiLightItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
