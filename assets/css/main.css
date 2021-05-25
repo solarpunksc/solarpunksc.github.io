@@ -3247,7 +3247,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-image: url("images/groovepaper.png");
+		background-image: url("...images/groovepaper.png");
 		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
@@ -3258,7 +3258,6 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-image: url("images/groovepaper.png");
 		background: rgb(232,207,236);
 		background: linear-gradient(90deg, rgba(232,207,236,1) 0%, rgba(117,178,248,1) 33%, rgba(160,234,205,1) 66%, rgba(255,247,147,1) 100%);
 		border-top-left-radius: 0.25em;
