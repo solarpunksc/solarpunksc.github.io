@@ -3257,8 +3257,8 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
+		background-image: url("images/groovepaper.png");
 		background: rgb(232,207,236);
-		background-image: url("images/natural-paper.png");
 		background: linear-gradient(90deg, rgba(232,207,236,1) 0%, rgba(117,178,248,1) 33%, rgba(160,234,205,1) 66%, rgba(255,247,147,1) 100%);
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
