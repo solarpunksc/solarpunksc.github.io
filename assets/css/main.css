@@ -45,7 +45,8 @@
   width: 100%;
   overflow: hidden;
   height: 3rem;
-  background-color: rgba(0, 0, 0, 0.9);
+  background: rgb(232,207,236);
+	background: linear-gradient(90deg, rgba(232,207,236,1) 0%, rgba(117,178,248,1) 16.5%, rgba(160,234,205,1) 33%, rgba(255,247,147,1) 50%);
   padding-left: 100%;
   padding-bottom:2.5rem;
   box-sizing: content-box;
