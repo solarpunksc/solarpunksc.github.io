@@ -3,6 +3,11 @@
 		font-weight: bold;
 		font-style: normal;
 	}
+	.example {
+		font-size:.8em;
+	}
+	.example .meta {
+	}
 /* Wrapper */
 
 	#wrapper {
