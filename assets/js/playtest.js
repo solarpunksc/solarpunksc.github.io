@@ -24,7 +24,7 @@ window.onload = function() {
 };
 
 Cards = {
-	"personae":{
+	"ancestor":{
 		"cardsDrawn":0,
 		"description":"",
 		"cards":[
@@ -54,6 +54,10 @@ Cards = {
 			},
 			{
 				"name":"Teacher",
+				"drawn":false
+			},
+			{
+				"name":"Healer",
 				"drawn":false
 			}
 		]
@@ -271,7 +275,7 @@ Cards = {
 				"drawn":false
 			},
 			{
-				"name":"Family Traditions/Wisdom",
+				"name":"Family Wisdom",
 				"drawn":false
 			},
 			{
@@ -339,7 +343,7 @@ Cards = {
 				"drawn":false
 			},
 			{
-				"name":"Recycled Materials",
+				"name":"Upcycling",
 				"drawn":false
 			},
 			{
@@ -352,10 +356,6 @@ Cards = {
 			},
 			{
 				"name":"Teaching/Education",
-				"drawn":false
-			},
-			{
-				"name":"Timebank",
 				"drawn":false
 			},
 			{
