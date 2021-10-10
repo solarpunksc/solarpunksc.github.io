@@ -41,7 +41,7 @@
 }
 .ticker-wrap {
   position: fixed;
-  bottom: 0;
+  top: 0;
   width: 100%;
   overflow: hidden;
   height: 3rem;
@@ -3214,7 +3214,7 @@ input, select, textarea {
 				-ms-transition-delay: 0s;
 				transition-delay: 0s;
 				display: block;
-				margin: 0 0 1.5em 0;
+				margin: 6em 0 0 0;
 			}
 
 				#header.alt .logo img {
@@ -3683,7 +3683,7 @@ input, select, textarea {
 
 		#main > .main {
 			padding: 5em 5em 3em 5em ;
-			border-top: solid 1px #dddddd;
+			/*border-top: solid 1px #dddddd;*/
 		}
 
 			#main > .main:first-child {
