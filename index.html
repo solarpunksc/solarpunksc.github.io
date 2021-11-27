@@ -39,6 +39,14 @@
 					<div id="main">
 						<!-- Introduction -->
 							<section id="intro" class="main">
+								<h2>Available Now!</h2>
+										<ul class="actions">
+											<li><div id='product-component-1638039762848'></div></li>
+											<li><a href="https://forms.gle/FrPsRN5VdDWey6gr9" class="button">Get Updates</a></li>
+											<li><a href="mailto:solarpunksurfclub@gmail.com?subject=Hosting%20a%20Solarpunk%20Futures%20event" class="button">Host an Event</a></li>
+											<!--<li><a href="https://www.eventbrite.com/o/solarpunk-surf-club-33930608215" class="button">Help Playtest</a></li>-->
+											<!--<li><a href="https://forms.gle/W9FBSJJs1nwkmyMv5" class="button">Contribute Card Ideas</a></li>-->
+										</ul>
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
@@ -46,21 +54,27 @@
 										</header>
 										<p>Solarpunk Futures is a 10-minute rules-light role playing game where players imagine the pathways to a desirable world from the perspective of a utopian future. Players use a deck of cards to remember <span class="highlight">Ancestors</span> (e.g. grower, engineer, newcomer) and work together using <span class="highlight">Tools</span> (e.g. recycled materials, equipment library, off-grid energy) and <span class="highlight">Values</span> (e.g. care, responsibility, usufruct) to overcome a set of real-world <span class="highlight">Challenges</span> (e.g. borders, ableist infrastructure, climate refugee crisis). Through dialogue and collaborative worldbuilding, collective and visionary narratives emerge of a new society, along with plausible scenarios for how to get there.</p>
 
-										<h2>Available Now!</h2>
-										<ul class="actions">
-											<li><a href="#" class="button primary">Purchase (Coming Soon!)</a></li>
-											<li><a href="https://forms.gle/FrPsRN5VdDWey6gr9" class="button">Get Updates</a></li>
-											<li><a href="mailto:solarpunksurfclub@gmail.com?subject=Hosting%20a%20Solarpunk%20Futures%20event" class="button">Host an Event</a></li>
-											<!--<li><a href="https://www.eventbrite.com/o/solarpunk-surf-club-33930608215" class="button">Help Playtest</a></li>-->
-											<!--<li><a href="https://forms.gle/W9FBSJJs1nwkmyMv5" class="button">Contribute Card Ideas</a></li>-->
-										</ul>
+										<hr/>
+
+										<p>Solarpunk Futures is a project by <a href="https://solarpunksurf.club">Solarpunk Surf Club</a>, led by members Nick Lyell & Max Puchalsky</p>
 									</div>
-									<span class="image"><img src="images/values-card-min.png" alt="" /></span>
+									<span class="image"><img src="images/header-image-quick-deets-min.png" alt="" /></span>
 								</div>
 							</section>
-
+							<section id="print-and-play" class="main" style="background-color:#fff793;">
+								<span class="image left"><img src="images/cc-all-icons.png" alt="" /></span>
+								<p class="content">
+									Solarpunk Futures is licensed under a Creative Commons Attribution - NonCommercial - ShareAlike 4.0 International License. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Read more.</a><br/><br/>
+									You can download and play our free print & play version.
+								</p>
+								<ul class="actions special">
+											<li><a href="assets/Solarpunk Futures Gamebook - Print & Play.pdf" class="button">Download Solarpunk Futures Gamebook</a></li>
+											<li><a href="assets/Solarpunk Futures Cards - Print & Play.pdf" class="button">Download Solarpunk Futures Cards</a></li>
+											<li><a href="#" class="button">Play on Tabletop Simulator (Coming Soon!)</a></li>
+										</ul>
+							</section>
 						<!-- Get Started -->
-							<section id="solarpunk" class="main special">
+							<section id="solarpunk" class="main special" style="margin-top:2em;">
 								<span class="image main"><img src="images/card-illustrations/card-illustrations-wide.png"></span>
 								<header class="major">
 									<h2>Solarpunk?</h2>
@@ -154,7 +168,7 @@
 								<div class="spotlight">
 									<span class="image"><img src="/images/mac_logo.jpg"></span>
 									<span class="image"><img src="/images/wiartsboard.jpg"></span>
-									<span class="image"><img src="/images/DA-logo-490x-490.png"></span>
+									<span class="image"><img src="/images/DA-logo-490x490.png"></span>
 								</div>
 							</section>
 
@@ -210,7 +224,178 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+			<script src="assets/js/main.js"></script>			
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'solarpunk-surf-club.myshopify.com',
+      storefrontAccessToken: '5324346f4dd8b36122de2ceff3fd2c50',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '7444765245693',
+        node: document.getElementById('product-component-1638039762848'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        },
+        "text-align": "center"
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        "color": "#f7fefd",
+        ":hover": {
+          "color": "#f7fefd",
+          "background-color": "#3a4c80"
+        },
+        "background-color": "#40548e",
+        ":focus": {
+          "background-color": "#3a4c80"
+        }
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      }
+    },
+    "buttonDestination": "checkout",
+    "contents": {
+      "img": false,
+      "button": false,
+      "buttonWithQuantity": true,
+      "title": false,
+      "price": false
+    },
+    "text": {
+      "button": "Buy now"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        "color": "#f7fefd",
+        ":hover": {
+          "color": "#f7fefd",
+          "background-color": "#3a4c80"
+        },
+        "background-color": "#40548e",
+        ":focus": {
+          "background-color": "#3a4c80"
+        }
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        "color": "#f7fefd",
+        ":hover": {
+          "color": "#f7fefd",
+          "background-color": "#3a4c80"
+        },
+        "background-color": "#40548e",
+        ":focus": {
+          "background-color": "#3a4c80"
+        }
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#40548e",
+        ":hover": {
+          "background-color": "#3a4c80"
+        },
+        ":focus": {
+          "background-color": "#3a4c80"
+        }
+      },
+      "count": {
+        "font-size": "16px",
+        "color": "#f7fefd",
+        ":hover": {
+          "color": "#f7fefd"
+        }
+      },
+      "iconPath": {
+        "fill": "#f7fefd"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>

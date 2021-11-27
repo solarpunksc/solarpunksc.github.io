@@ -54,7 +54,7 @@
 .ticker-wrap .ticker {
   display: inline-block;
   height: 3rem;
-  line-height: 2rem;
+  line-height: 6rem;
   white-space: nowrap;
   padding-right: 100%;
   box-sizing: content-box;
@@ -3106,7 +3106,7 @@ input, select, textarea {
 			.spotlight .image img {
 				display: block;
 				/*border-radius: 100%;*/
-				width: 16em;
+				width: 10em;
 				border-width:0;
 			}
 
