@@ -106,7 +106,8 @@
 							<section id="featured" class="main" style="padding-top:0em;">
 								<header class="major">
 									<h2>Featured In</h2>
-									<p>"<strong>Get this game, play it, tell stories, build utopias</strong>." <span style="font-size:.8em;">- Justine Norton-Kerston, Solarpunk Magazine</span></p>
+									<p>Watch a <a href="https://www.twitch.tv/videos/1268347088">livestreamed playthough</a> with Veterans for Peace</p>
+									<p>"<strong>Get this game, play it, tell stories, build utopias</strong>." <span style="font-size:.8em;">- Justine Norton-Kerston, <a href="https://solarpunkmagazine.com/">Solarpunk Magazine</a></span></p>
 									<p>"A great set of concepts and tools for playfully cracking open the too-oft-foreclosed possibilities for better futures. <strong>Working with these cards will expand your visionary vocabulary and sharpen your ability to imagine</strong> how we might individually and collectively tackle the massive challenges we face on our way through the existential bottleneck of the 21st century."<span style="font-size:.8em;">- Andrew Dana Hudson, Author of <a href="https://www.fordhampress.com/9780823299546/our-shared-storm/">Our Shared Storm</a></span></p>
 									<p>"<strong>Flying in the face of dystopian fiction</strong> and doom-and-gloom predictions is a new game from Madison arts collective Solarpunk Surf Club."<span style="font-size:.8em;">- Rob Thomas, The Cap Times</span></p>
 								</header>
@@ -123,11 +124,20 @@
 									<li>
 										<a href="https://captimes.com/entertainment/madison-made-game-solarpunk-futures-imagines-a-sunnier-tomorrow/article_42c6ace5-d927-56ec-ac0b-0d84d1158810.html"><span class="image"><img src="images/logos/the-cap-times.png" alt="The Cap Times"></span><h3 style="text-align:center; display:none;">The Cap Times</h3></a>
 									</li>
+									<li>
+										<a href="https://mozaikphilanthropy.org/faa/"><span class="image"><img src="images/logos/Solarpunk Surf Club_MOZAIK LAUREL.png" alt="Mozaik Future Art Awards"></span><h3 style="text-align:center; display:none;">Mozaik Future Art Awards</h3></a>
+									</li>
 									<!--<li>
 										<a href="#"><span class="image"><img src="images/logos/optopia.jpg" alt="Optopia Zine"><h3 style="text-align:center;">Optopia Zine</h3></span></a>
 									</li>
 									<li><a href="https://www.youtube.com/watch?v=YNv9fG7gb_A"><span class="image"><img src="images/logos/Board Again Games.jpeg" alt="Board Again Games.png"><h3 style="text-align:center;">Board Again Games</h3></span></a>
 									</li>-->
+								</ul>
+								<ul class="features">
+									<li>
+										<span class="image"><div id="twitch-embed" style="display:block;"></div>
+										</span><h4 style="text-align:center;">Watch a Live Playthrough of Solarpunk Futures</h4>
+									</li>
 								</ul>
 							</section>
 							<section id="print-and-play" class="main" style="background-color:#fff793;">
@@ -271,7 +281,6 @@
 							</ul>
 						</section>
 						<p class="copyright">&copy;Solarpunk Surf Club, 2021. Licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY NC SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
-						
 					</footer>
 
 			</div>
@@ -299,178 +308,17 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>			
-<script type="text/javascript">
-/*<![CDATA[*/
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  if (window.ShopifyBuy) {
-    if (window.ShopifyBuy.UI) {
-      ShopifyBuyInit();
-    } else {
-      loadScript();
-    }
-  } else {
-    loadScript();
-  }
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'solarpunk-surf-club.myshopify.com',
-      storefrontAccessToken: '5324346f4dd8b36122de2ceff3fd2c50',
-    });
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: '7444765245693',
-        node: document.getElementById('product-component-1638039762848'),
-        moneyFormat: '%24%7B%7Bamount%7D%7D',
-        options: {
-  "product": {
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "calc(25% - 20px)",
-          "margin-left": "20px",
-          "margin-bottom": "50px"
-        },
-        "text-align": "center"
-      },
-      "button": {
-        "font-size": "16px",
-        "padding-top": "16px",
-        "padding-bottom": "16px",
-        "color": "#f7fefd",
-        ":hover": {
-          "color": "#f7fefd",
-          "background-color": "#3a4c80"
-        },
-        "background-color": "#40548e",
-        ":focus": {
-          "background-color": "#3a4c80"
-        }
-      },
-      "quantityInput": {
-        "font-size": "16px",
-        "padding-top": "16px",
-        "padding-bottom": "16px"
-      }
-    },
-    "buttonDestination": "checkout",
-    "contents": {
-      "img": false,
-      "button": false,
-      "buttonWithQuantity": true,
-      "title": false,
-      "price": false
-    },
-    "text": {
-      "button": "Buy now"
-    }
-  },
-  "productSet": {
-    "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
-    }
-  },
-  "modalProduct": {
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "button": false,
-      "buttonWithQuantity": true
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      },
-      "button": {
-        "font-size": "16px",
-        "padding-top": "16px",
-        "padding-bottom": "16px",
-        "color": "#f7fefd",
-        ":hover": {
-          "color": "#f7fefd",
-          "background-color": "#3a4c80"
-        },
-        "background-color": "#40548e",
-        ":focus": {
-          "background-color": "#3a4c80"
-        }
-      },
-      "quantityInput": {
-        "font-size": "16px",
-        "padding-top": "16px",
-        "padding-bottom": "16px"
-      }
-    },
-    "text": {
-      "button": "Add to cart"
-    }
-  },
-  "option": {},
-  "cart": {
-    "styles": {
-      "button": {
-        "font-size": "16px",
-        "padding-top": "16px",
-        "padding-bottom": "16px",
-        "color": "#f7fefd",
-        ":hover": {
-          "color": "#f7fefd",
-          "background-color": "#3a4c80"
-        },
-        "background-color": "#40548e",
-        ":focus": {
-          "background-color": "#3a4c80"
-        }
-      }
-    },
-    "text": {
-      "total": "Subtotal",
-      "button": "Checkout"
-    }
-  },
-  "toggle": {
-    "styles": {
-      "toggle": {
-        "background-color": "#40548e",
-        ":hover": {
-          "background-color": "#3a4c80"
-        },
-        ":focus": {
-          "background-color": "#3a4c80"
-        }
-      },
-      "count": {
-        "font-size": "16px",
-        "color": "#f7fefd",
-        ":hover": {
-          "color": "#f7fefd"
-        }
-      },
-      "iconPath": {
-        "fill": "#f7fefd"
-      }
-    }
-  }
-},
-      });
-    });
-  }
-})();
-/*]]>*/
-</script>
+			<script src="assets/js/main.js"></script>
+			<script src="assetts/js/shopify.js"></script>
+			<!-- Load the Twitch embed JavaScript file -->
+		    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+		    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+		    <script type="text/javascript">
+		      new Twitch.Embed("twitch-embed", {
+		        width: "100%",
+		        height: "100%",
+		        video: "1268347088"
+		      });
+		    </script>		
+
