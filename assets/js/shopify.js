@@ -67,7 +67,7 @@
       "price": false
     },
     "text": {
-      "button": "Buy now"
+      "button": "Pre-order now"
     }
   },
   "productSet": {
