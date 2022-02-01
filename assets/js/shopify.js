@@ -25,7 +25,7 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '7559575601405',
-        node: document.getElementById('product-component-1643342226029'),
+        node: document.getElementById('product-component-1643755372614'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -35,22 +35,23 @@
           "max-width": "calc(25% - 20px)",
           "margin-left": "20px",
           "margin-bottom": "50px"
-        },
-        "text-align": "left"
+        }
       },
       "button": {
-        "font-size": "16px",
+        "font-weight": "bold",
+        "font-size": "22px",
         "padding-top": "16px",
         "padding-bottom": "16px",
         "color": "#f7fefd",
         ":hover": {
           "color": "#f7fefd",
-          "background-color": "#3a4c80"
+          "background-color": "#4f6fb3"
         },
-        "background-color": "#40548e",
+        "background-color": "#587bc7",
         ":focus": {
-          "background-color": "#3a4c80"
-        }
+          "background-color": "#4f6fb3"
+        },
+        "border-radius": "8px"
       },
       "quantityInput": {
         "font-size": "16px",
@@ -58,13 +59,12 @@
         "padding-bottom": "16px"
       }
     },
-    "buttonDestination": "checkout",
+    "buttonDestination": "modal",
     "contents": {
       "img": false,
-      "button": false,
-      "buttonWithQuantity": true,
       "title": false,
-      "price": false
+      "price": false,
+      "options": false
     },
     "text": {
       "button": "Pre-order now"
@@ -95,18 +95,20 @@
         }
       },
       "button": {
+        "font-weight": "bold",
         "font-size": "16px",
         "padding-top": "16px",
         "padding-bottom": "16px",
         "color": "#f7fefd",
         ":hover": {
           "color": "#f7fefd",
-          "background-color": "#3a4c80"
+          "background-color": "#4f6fb3"
         },
-        "background-color": "#40548e",
+        "background-color": "#587bc7",
         ":focus": {
-          "background-color": "#3a4c80"
-        }
+          "background-color": "#4f6fb3"
+        },
+        "border-radius": "8px"
       },
       "quantityInput": {
         "font-size": "16px",
@@ -122,18 +124,20 @@
   "cart": {
     "styles": {
       "button": {
+        "font-weight": "bold",
         "font-size": "16px",
         "padding-top": "16px",
         "padding-bottom": "16px",
         "color": "#f7fefd",
         ":hover": {
           "color": "#f7fefd",
-          "background-color": "#3a4c80"
+          "background-color": "#4f6fb3"
         },
-        "background-color": "#40548e",
+        "background-color": "#587bc7",
         ":focus": {
-          "background-color": "#3a4c80"
-        }
+          "background-color": "#4f6fb3"
+        },
+        "border-radius": "8px"
       }
     },
     "text": {
@@ -144,12 +148,13 @@
   "toggle": {
     "styles": {
       "toggle": {
-        "background-color": "#40548e",
+        "font-weight": "bold",
+        "background-color": "#587bc7",
         ":hover": {
-          "background-color": "#3a4c80"
+          "background-color": "#4f6fb3"
         },
         ":focus": {
-          "background-color": "#3a4c80"
+          "background-color": "#4f6fb3"
         }
       },
       "count": {

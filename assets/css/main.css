@@ -3886,4 +3886,6 @@ input, select, textarea {
 
 		}
 
-
+.shopify-buy__btn-wrapper {
+	margin-top: 5px;
+}
