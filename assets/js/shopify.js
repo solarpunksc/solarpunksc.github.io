@@ -25,7 +25,7 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '7559575601405',
-        node: document.getElementById('product-component-1643755372614'),
+        node: document.getElementById('product-component-1643756294984'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -38,10 +38,9 @@
         }
       },
       "button": {
-        "font-weight": "bold",
-        "font-size": "22px",
-        "padding-top": "16px",
-        "padding-bottom": "16px",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
         "color": "#f7fefd",
         ":hover": {
           "color": "#f7fefd",
@@ -54,9 +53,9 @@
         "border-radius": "8px"
       },
       "quantityInput": {
-        "font-size": "16px",
-        "padding-top": "16px",
-        "padding-bottom": "16px"
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px"
       }
     },
     "buttonDestination": "modal",
@@ -95,10 +94,9 @@
         }
       },
       "button": {
-        "font-weight": "bold",
-        "font-size": "16px",
-        "padding-top": "16px",
-        "padding-bottom": "16px",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
         "color": "#f7fefd",
         ":hover": {
           "color": "#f7fefd",
@@ -111,9 +109,9 @@
         "border-radius": "8px"
       },
       "quantityInput": {
-        "font-size": "16px",
-        "padding-top": "16px",
-        "padding-bottom": "16px"
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px"
       }
     },
     "text": {
@@ -124,10 +122,9 @@
   "cart": {
     "styles": {
       "button": {
-        "font-weight": "bold",
-        "font-size": "16px",
-        "padding-top": "16px",
-        "padding-bottom": "16px",
+        "font-size": "18px",
+        "padding-top": "17px",
+        "padding-bottom": "17px",
         "color": "#f7fefd",
         ":hover": {
           "color": "#f7fefd",
@@ -148,7 +145,6 @@
   "toggle": {
     "styles": {
       "toggle": {
-        "font-weight": "bold",
         "background-color": "#587bc7",
         ":hover": {
           "background-color": "#4f6fb3"
@@ -158,7 +154,7 @@
         }
       },
       "count": {
-        "font-size": "16px",
+        "font-size": "18px",
         "color": "#f7fefd",
         ":hover": {
           "color": "#f7fefd"
