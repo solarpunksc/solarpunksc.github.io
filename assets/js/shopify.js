@@ -66,7 +66,7 @@
       "options": false
     },
     "text": {
-      "button": "Pre-order now"
+      "button": "Order now"
     }
   },
   "productSet": {
