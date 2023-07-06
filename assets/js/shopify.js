@@ -66,7 +66,7 @@
       "options": false
     },
     "text": {
-      "button": "Order now"
+      "button": "Sold out"
     }
   },
   "productSet": {
