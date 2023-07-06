@@ -67,25 +67,35 @@ Cards = {
 		"description":"",
 		"cards":[
 			{
-				"name":"Ableist Infrastructure",
-				"drawn":false
-			},
-			{
-				"name":"Borders",
-				"drawn":false
-			},
-			{
-				"name":"Climate Refugees",
-				"drawn":false
-			},
-			{
-				"name":"Deforestation",
-				"drawn":false
-			},
-			{
-				"name":"Digital Divide",
-				"drawn":false
-			},
+			    "name": "Ableist Infrastructure",
+			    "description": "Aspects of the built environment, communication networks, policies, laws, and language that oppress people with disabilities.",
+			    "drawn": false
+			  },
+			  {
+			    "name": "Borders",
+			    "description": "Imaginary geographical lines between states that limit the free movement of people and distribution of goods.",
+			    "drawn": false
+			  },
+			  {
+			    "name": "Climate Refugees",
+			    "description": "The mass migration of people forced to flee their homes due to extreme weather events like drought, wildfires, and hurricanes.",
+			    "drawn": false
+			  },
+			  {
+			    "name": "Deforestation",
+			    "description": "The destruction of forests accelerates climate chaos, extincts species, and increases the risk of pandemics.",
+			    "drawn": false
+			  },
+			  {
+			    "name": "Gender-based Violence",
+			    "description": "Harms in physical, sexual, psychological, and economic form repress and punish people along hierarchies of gender.",
+			    "drawn": false
+			  },
+			  {
+			    "name": "Digital Divide",
+			    "description": "The gaps in essential information and communicative freedom experienced by people without internet access.",
+			    "drawn": false
+			  },
 			{
 				"name":"Homelessness",
 				"drawn":false
